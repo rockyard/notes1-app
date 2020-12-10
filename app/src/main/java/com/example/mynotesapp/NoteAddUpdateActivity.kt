@@ -1,19 +1,18 @@
-package com.example.consumernotesapp
+package com.example.mynotesapp
 
 import android.content.ContentValues
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
-import com.example.consumernotesapp.R
-import com.example.consumernotesapp.db.NoteHelper
-import com.example.consumernotesapp.db.DatabaseContract
-import com.example.consumernotesapp.db.DatabaseContract.NoteColumns.Companion.DATE
-import com.example.consumernotesapp.entity.Note
+import androidx.appcompat.app.AppCompatActivity
+import com.example.mynotesapp.db.DatabaseContract
+import com.example.mynotesapp.db.DatabaseContract.NoteColumns.Companion.DATE
+import com.example.mynotesapp.db.NoteHelper
+import com.example.mynotesapp.entity.Note
 import kotlinx.android.synthetic.main.activity_note_add_update.*
 import java.text.SimpleDateFormat
 import java.util.*

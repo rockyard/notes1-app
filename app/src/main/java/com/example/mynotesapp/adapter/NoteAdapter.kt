@@ -1,4 +1,4 @@
-package com.example.consumernotesapp.adapter
+package com.example.mynotesapp.adapter
 
 import android.app.Activity
 import android.content.Intent
@@ -6,10 +6,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.consumernotesapp.CustomOnItemClickListener
-import com.example.consumernotesapp.NoteAddUpdateActivity
-import com.example.consumernotesapp.R
-import com.example.consumernotesapp.entity.Note
+import com.example.mynotesapp.CustomOnItemClickListener
+import com.example.mynotesapp.NoteAddUpdateActivity
+import com.example.mynotesapp.R
+import com.example.mynotesapp.entity.Note
 import kotlinx.android.synthetic.main.item_note.view.*
 
 class NoteAdapter(private val activity: Activity) : RecyclerView.Adapter<NoteAdapter.NotViewHolder>() {

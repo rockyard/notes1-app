@@ -1,14 +1,14 @@
-package com.example.consumernotesapp
+package com.example.mynotesapp
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.consumernotesapp.adapter.NoteAdapter
-import com.example.consumernotesapp.db.NoteHelper
-import com.example.consumernotesapp.entity.Note
-import com.example.consumernotesapp.helper.MappingHelper
+import com.example.mynotesapp.adapter.NoteAdapter
+import com.example.mynotesapp.db.NoteHelper
+import com.example.mynotesapp.entity.Note
+import com.example.mynotesapp.helper.MappingHelper
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.coroutines.Dispatchers

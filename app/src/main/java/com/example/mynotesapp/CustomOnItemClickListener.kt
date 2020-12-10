@@ -1,4 +1,4 @@
-package com.example.consumernotesapp
+package com.example.mynotesapp
 
 import android.view.View
 

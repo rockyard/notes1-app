@@ -1,11 +1,11 @@
-package com.example.consumernotesapp.db
+package com.example.mynotesapp.db
 
 import android.content.ContentValues
 import android.content.Context
 import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
-import com.example.consumernotesapp.db.DatabaseContract.NoteColumns.Companion.TABLE_NAME
-import com.example.consumernotesapp.db.DatabaseContract.NoteColumns.Companion._ID
+import com.example.mynotesapp.db.DatabaseContract.NoteColumns.Companion.TABLE_NAME
+import com.example.mynotesapp.db.DatabaseContract.NoteColumns.Companion._ID
 import java.sql.SQLException
 
 class NoteHelper(context: Context) {

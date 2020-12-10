@@ -1,4 +1,4 @@
-package com.example.consumernotesapp.db
+package com.example.mynotesapp.db
 
 import android.provider.BaseColumns
 
